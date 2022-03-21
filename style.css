@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main__div {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.follow__page {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+  bottom: 130px;
+  right: -200px;
+  transition: 0.5s;
+}
+
+.center__div {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.follow__page img {
+  height: 50px;
+  width: 50px;
+}
+
+.follow__page__para a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 30px;
+}
+
+.follow__page:hover {
+  right: -20px;
+}
+
+.youtube {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+  bottom: 60px;
+  right: -205px;
+  transition: 0.5s;
+}
+
+.youtube img {
+  width: 50px;
+  height: 50px;
+}
+
+.youtube__para a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 30px;
+}
+
+.youtube:hover {
+  right: -15px;
+}
+
+#txt {
+  font-size: 35px;
+  margin-top: 15px;
+}
