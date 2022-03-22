@@ -34,6 +34,10 @@
   margin: 0 15px;
 }
 
+.center__div h1 {
+  text-align: center;
+}
+
 .follow__page img {
   height: 50px;
   width: 50px;
