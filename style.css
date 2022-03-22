@@ -91,8 +91,8 @@
 
 @media (max-width: 768px) {
   .follow__page {
-    right: 210px;
+    right: -210px;
   }
   .youtube {
-    right: 210px;
+    right: -210px;
   }
